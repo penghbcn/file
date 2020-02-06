@@ -1,6 +1,6 @@
 package com.yohm.springcloud.file.controller;
 
-import com.yohm.springcloud.file.model.JsonResponse;
+import com.yohm.springcloud.file.vo.JsonResponse;
 import com.yohm.springcloud.file.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

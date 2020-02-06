@@ -1,6 +1,6 @@
 package com.yohm.springcloud.file.service.impl;
 
-import com.yohm.springcloud.file.model.JsonResponse;
+import com.yohm.springcloud.file.vo.JsonResponse;
 import com.yohm.springcloud.file.service.FtpService;
 import com.yohm.springcloud.file.utils.FtpUtil;
 import org.slf4j.Logger;
@@ -10,7 +10,6 @@ import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.annotation.Resource;
-import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 import java.net.URL;

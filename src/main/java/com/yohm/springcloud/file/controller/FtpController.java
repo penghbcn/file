@@ -1,6 +1,6 @@
 package com.yohm.springcloud.file.controller;
 
-import com.yohm.springcloud.file.model.JsonResponse;
+import com.yohm.springcloud.file.vo.JsonResponse;
 import com.yohm.springcloud.file.service.FtpService;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;

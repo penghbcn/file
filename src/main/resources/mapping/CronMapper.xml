@@ -1,0 +1,21 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yohm.springcloud.file.mapper.CronMapper">
+
+    <resultMap id="BaseResultMap" type="com.yohm.springcloud.file.model.CronModel">
+        <result column="id" jdbcType="INTEGER" property="id" />
+        <result column="name" jdbcType="VARCHAR" property="name" />
+        <result column="cron" jdbcType="VARCHAR" property="cron" />
+        <result column="status" jdbcType="INTEGER" property="status" />
+        <result column="createdBy" jdbcType="VARCHAR" property="created_by" />
+        <result column="createdTime" jdbcType="LONG" property="created_time" />
+        <result column="modifiedBy" jdbcType="VARCHAR" property="modified_by" />
+        <result column="modifiedTime" jdbcType="LONG" property="modified_time" />
+    </resultMap>
+
+    <insert id="insertOne">
+        select * from user where id = #{id}
+    </insert>
+
+</mapper>

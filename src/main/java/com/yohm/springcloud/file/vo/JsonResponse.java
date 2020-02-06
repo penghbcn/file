@@ -1,4 +1,4 @@
-package com.yohm.springcloud.file.model;
+package com.yohm.springcloud.file.vo;
 
 /**
  * 功能简述
@@ -55,7 +55,7 @@ public class JsonResponse<T> {
         this.message = message;
     }
 
-    public Object getResult() {
+    public T getResult() {
         return result;
     }
 

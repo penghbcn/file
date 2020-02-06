@@ -1,6 +1,6 @@
 package com.yohm.springcloud.file.service.impl;
 
-import com.yohm.springcloud.file.model.JsonResponse;
+import com.yohm.springcloud.file.vo.JsonResponse;
 import com.yohm.springcloud.file.service.TestService;
 import com.yohm.springcloud.file.utils.FtpUtil;
 import org.springframework.beans.factory.annotation.Autowired;

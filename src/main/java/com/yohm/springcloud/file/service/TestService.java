@@ -1,6 +1,6 @@
 package com.yohm.springcloud.file.service;
 
-import com.yohm.springcloud.file.model.JsonResponse;
+import com.yohm.springcloud.file.vo.JsonResponse;
 import org.springframework.web.multipart.MultipartFile;
 
 public interface TestService {
